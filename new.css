@@ -1,0 +1,80 @@
+#calend{
+	position:absolute;
+	left:17%;
+	top:30vh;
+}
+#calend td{
+	width:4%;
+	height:4em;
+	text-align: center;
+	line-height: 4em;
+
+}
+}
+#calend tr:first-child td:hover{
+	background-color: #D8D8D8;
+	text-decoration:underline;
+}
+#left,#right,#month{
+	position:relative;
+	height:4vh;
+	display:inline-block;
+}
+#left{
+	right:20%;
+}
+#right{
+	left:20%;
+}
+#month{
+	line-height:2vh;
+	font-size:1.5em;
+	text-align:center;
+	width: 5em;
+}
+#header{
+	position:absolute;
+	left:26%;
+	top:23vh;
+}
+#time{
+	position:absolute;
+	color:#333;
+	width:20%;
+	height:10vh;;
+	top:10vh;
+	left:23%;
+	border:3px solid #333;
+	border-radius:30%;
+	text-align: center;
+	line-height: 10vh;
+	font-size:3em;
+}
+#remim{
+	position:absolute;
+	left:50%;
+	top:23vh;
+	width:45%;
+	height:30em;
+	border:2px solid blue;
+}
+#remim h1{
+	text-align:center;
+	text-decoration: underline;
+}
+#remim button{
+	text-align:center;
+	text-decoration: underline;
+	width:20%;
+	height:3vh;
+	margin-left:40%;
+	margin-top: 5vh;
+}
+#remim #text{
+	width:80%;
+	height:60%;
+	padding: 4%;
+	box-sizing: border-box;
+	font-size: 1.5em;
+	margin-left:10%;
+}
